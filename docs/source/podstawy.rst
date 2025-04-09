@@ -18,7 +18,7 @@ Akapit tekstowy
 .. note:: akapit informacyjny note
 .. tip:: akapit informacyjny tip
 
-`kod linniowy`
+:code:`kod linniowy`
 
 .. code-block:: language
 
