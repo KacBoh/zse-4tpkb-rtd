@@ -27,17 +27,8 @@ Akapit tekstowy
   Kod
   Blokowy
 
-odnośnik wewnętrzny
-:ref:`api
 
-
-
-Section to cross-reference
---------------------------
-
-This is the text of the section.
-
-It refers to the section itself, see :ref:`my-reference-label`.
+odnośnik wewnętrzny do :ref:`my-reference-label`.
 
 `Odnośnik zewnętrzny <https://edu.gplweb.pl/>`_
 
