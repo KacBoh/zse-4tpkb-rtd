@@ -20,9 +20,10 @@ Akapit tekstowy
 
 `kod linniowy`
 
-<pre>kod
-blokowy
-</pre>
+.. code-block:: language
+
+  Kod
+  Blokowy
 
 odnośnik wewnętrzny
 :ref:`api
