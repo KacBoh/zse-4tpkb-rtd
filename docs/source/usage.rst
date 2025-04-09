@@ -30,37 +30,44 @@ odnośnik wewnętrzny
 `Odnośnik zewnętrzny <https://edu.gplweb.pl/>`_
 
 lista numerowana:
-1. element1
-2. element2
 
-.. _installation:
+#. 1
+#. 2 
+#. 3
 
-Installation
-------------
+lista wypunktowana
 
-To use Lumache, first install it using pip:
+* 1
+* 2 
+* 3
 
-.. code-block:: console
+lsita definicji
 
-   (.venv) $ pip install lumache
+#. 1
 
-Creating recipes
-----------------
+   * a1
+   * b1
+#. 2
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+   #. a2
+   #. b2
+#. 3
 
-.. autofunction:: lumache.get_random_ingredients
+.. image:: https://www.linuxlinks.com/wp-content/uploads/2018/06/reST.jpg 
+   :alt: text alternatywny 
+   :figcaption: podstawy RST
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. list-table:: Tabela
+   :widths: 25 25 50
+   :header-rows: 1
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   * - nagłówek 1
+     - nagłówek 2
+     - nagłówek 3
+   * - 1,1
+     - 1,2
+     - 1,3
+   * - 2,1
+     - 2,2
+     - 2,3
 
