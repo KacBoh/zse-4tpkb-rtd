@@ -1,4 +1,4 @@
-Usage
+Podstawy RST
 =====
 
 Nagłówek 1
