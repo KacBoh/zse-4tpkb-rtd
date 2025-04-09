@@ -4,6 +4,8 @@ Podstawy RST
 Nagłówek 1
 ==========
 
+.. _my-reference-label:
+
 Nagłówek 2
 ----------
 
@@ -28,7 +30,7 @@ Akapit tekstowy
 odnośnik wewnętrzny
 :ref:`api
 
-.. _my-reference-label:
+
 
 Section to cross-reference
 --------------------------
